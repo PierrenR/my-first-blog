@@ -1,0 +1,3 @@
+nom;prenom;ville;
+rolland;pierre;nice
+dupont;julia;tours

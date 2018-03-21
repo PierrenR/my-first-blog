@@ -1,0 +1,10 @@
+<p> pierre </p>
+<p> {{message}}</p>
+
+ <form method="post" enctype="multipart/form-data" >
+       {% csrf_token %}
+       {{ form.as_p }}
+	   {{message}}
+       <input type="submit"/>
+ </form>
+ {{message}}
